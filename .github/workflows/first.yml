@@ -11,10 +11,3 @@ jobs:
       uses: actions/checkout@v2
     - name: Step two
       run: env | sort
-  job2:
-    name: Second job
-    runs-on: ubuntu-latest
-    - name: Step one
-      uses: actions/checkout@v2
-    - name: Step two
-      run: env | sort
